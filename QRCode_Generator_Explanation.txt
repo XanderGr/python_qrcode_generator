@@ -1,0 +1,28 @@
+﻿This Python script generates a QR code containing the OTP (One-Time Password) authentication URI. Here's how it works:
+
+1. **Generate Secret Key**: Generates a random secret key for OTP authentication.
+2. **Encode the Key**: Encodes the secret key and constructs the OTP authentication URI.
+3. **Create the QR Code**: Uses the constructed URI to generate a QR code image.
+
+#### Usage Instructions:
+
+1. **Install Python**: Ensure Python 3.x is installed on your system.
+2. **Install Required Packages**: Install the `qrcode` library using `pip`:
+ 
+    pip install qrcode[pil]
+
+3. **Clone Repository**: Clone this repository from GitHub to your local machine.
+4. **Navigate to Directory**: Open a terminal and navigate to the directory containing the Python script (`qrcode_generator.py`).
+5. **Run Script**: Execute the script using Python 3:
+
+    python3 qrcode_generator.py
+
+6. **View QR Code**: The QR code image will be saved as `otp_qrcode.png` in the same directory.
+
+#### Example:
+
+$ python3 qrcode_generator.py
+Secret Key: LQ2X2JGEXY7UKD2X
+QR code generated successfully!
+
+
